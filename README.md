@@ -19,9 +19,9 @@ Once you setup, create a conda environment with Python 3.11:
 ```
 conda create --name ultralytics-env python=3.11 -y
 conda activate ultralytics-env
-conda activate ultralytics-env
 conda install -c pytorch pytorch torchvision torchaudio
 
+conda deactivate ultralytics-env
 ```
 
 You may adjust the parameter in the code accordingly. Do read the ultralytics doc.
