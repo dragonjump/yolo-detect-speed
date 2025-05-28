@@ -64,9 +64,9 @@ while cap.isOpened():
             region_label = None
             if speed is not None:
                 if point_in_rotated_rect((cx, cy), RECT1_DEF):
-                    region_label = 'to kl'
+                    region_label = 'Heading To kl'
                 elif point_in_rotated_rect((cx, cy), RECT2_DEF):
-                    region_label = 'to klang'
+                    region_label = 'Heading To klang'
                 if region_label:
                     all_speeds.append((frame_idx, track_id, speed, region_label))
                     print(f"Frame {frame_idx} | Track ID: {track_id} | Speed: {speed} km/h | Region: {region_label}")
