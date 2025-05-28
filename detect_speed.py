@@ -93,6 +93,11 @@ def write_stats_simple(filename, region_name, all_speeds):
             f.write(f"**Fastest speed:** {fastest} km/h\n\n")
             f.write(f"**Average speed:** {average:.2f} km/h\n\n")
             f.write(f"**Slowest speed:** {slowest} km/h\n\n")
+            f.write("## Individual Speeds\n\n")
+            f.write("| Frame | Track ID | Speed (km/h) |\n")
+            f.write("|-------|----------|--------------|\n")
+            for frame, track_id, speed, _ in region_speeds:
+                f.write(f"| {frame} | {track_id} | {speed} |\n")
         else:
             f.write(f"# {region_name}\nNo objects detected in this region.\n\n")
 
