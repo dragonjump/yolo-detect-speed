@@ -101,5 +101,13 @@ def write_stats_simple(filename, region_name, all_speeds):
         else:
             f.write(f"# {region_name}\nNo objects detected in this region.\n\n")
 
-write_stats_simple("result_to_kl.md", "to kl", all_speeds)
-write_stats_simple("result_to_klang.md", "to klang", all_speeds)
+write_stats_simple("result_to_kl.md", "Heading To kl", all_speeds)
+write_stats_simple("result_to_klang.md", "Heading To klang", all_speeds)
+
+# Queue ID: ae9fae9b-ed60-4adc-9c7b-399cb41c5b58
+
+# https://bookmyshowsg.queue-it.net/?c=bookmyshowsg&e=splanet20250529gd&ver=javascript-4.3.1&cver=2156&man=splanet-booking-GD2025KL&t=https%3A%2F%2Fstarplanet.bigtix.io%2Fbooking%2FGD2025KL%3Fotm%3Dx7f2b9qk&kupver=cloudflare-4.2.2
+# https://bookmyshowsg.queue-it.net/?c=bookmyshowsg&e=splanet20250529gd&t=https%3A%2F%2Fstarplanet.bigtix.io%2Fbooking%2FGD2025KL%3Fotm%3Dx7f2b9qk&cid=en-US
+
+
+# https://bookmyshowsg.queue-it.net/?c=bookmyshowsg&e=splanet20250529gd&q=3835ee17-e3ae-4d2e-adfc-
